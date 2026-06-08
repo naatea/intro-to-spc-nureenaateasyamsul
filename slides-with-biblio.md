@@ -154,5 +154,29 @@ The work done $W$ is positive when the system expands against an external pressu
 ::::
 
 ---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Machine 1 Performance
+**Process Control Analysis:**
+
+- Condition: 338K / 200kPa
+- Monitoring: `PartResistance`
+- Chart Type: Individual ($X$) Chart
+- Stability: Limits calculated via Shewhart method.
+:::
+
+::: {.column width="50%"}
+<iframe 
+  data-src="media/plots/control_chart_m1_338_200_partresistance.html" 
+  width="100%" 
+  height="500px" 
+  style="border:none;" 
+  scrolling="no">
+</iframe>
+:::
+::::
+
+---
 # Bibliography
 <div id="refs"></div>
